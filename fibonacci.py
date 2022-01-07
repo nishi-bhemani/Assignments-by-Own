@@ -99,4 +99,12 @@ for i in range (4,n+3,4):
     if fib_num[n]==r:
         break
     
+plt.figure(figsize=(9,6))
 plt.plot(x_cord,y_cord)
+plt.plot(x_cord,y_cord)
+plt.axhline(y=0,color ='k')
+plt.axvline(x=0,color ='k')
+plt.xlabel("X-axis")
+plt.ylabel("Y-axis")
+plt.title("Fibbonacci Curve")
+plt.grid()
